@@ -1,0 +1,184 @@
+/*
+floating_elements
+.conteudo1 {
+	background: red;
+	border: 1px solid gray;
+	width: 150px;
+	height: 150px;
+	float: left;
+}
+
+.float {
+	background: blue;
+	border: 1px solid gray;
+	width: 200px;
+	height: 200px;
+	float: right;
+	margin: 10px;
+}
+
+limpa o float (left, right, none, both)
+.clear {
+	clear: both;
+}
+
+#principal {
+	background: green;
+	border: 10px solid red;
+}
+*/
+
+/*
+Aula floating elements practice
+
+#principal {
+	width: 920px;
+}
+
+.noticia {
+	background: #e5e5e5;
+	padding: 5px;
+	float: left;
+	width: 280px;
+	margin: 5px;
+}
+
+.clear {
+	clear: both;
+}
+
+.imagem {
+	background: white;
+	width: 280px;
+	padding: 5px;
+	float: left;
+	margin: 5px;
+}
+
+body {
+	background: #f4f4f4;
+}
+
+*/
+
+/*
+AULA INLINE BLOCK 
+.borda {
+	border: 1px solid red;
+	display: inline;
+}
+*/
+
+/*
+AULA POSITIONING
+
+#container {
+	background: #FFF;
+	width: 800px;
+	margin: 10px auto;
+	position: relative;
+}
+
+.relative {
+	border: 1px solid red;
+	/* top, right, bottom, left 
+	position: relative;
+	/* valores positivos ou negativos 
+	top: 20px;
+	left: 80px;
+}
+
+/* igual o relative 
+.absolute {
+	position: absolute;
+	border: 1px solid red;
+	background: #f2f2f2;
+	top: 0px;
+	right: 20px;
+}
+
+/* fixo em relacao ao scroll 
+.fixed {
+	border: 1px solid red;
+	background: #f2f2f2;
+	position: fixed;
+	top: 0px;
+	right: 20px;
+}
+
+body {
+	background: #007fc7;
+}
+
+h1 {
+	position: static;
+}
+
+p {
+	position: static;
+	width: 300px;
+}
+
+*/
+
+/*
+Sobreposicao -> z-index (qnt maior, mais a frente) (posicao da pilha)
+.conteudo1 {
+	border: 1px solid red;
+	background: orange;
+	width: 200px;
+	height: 200px;
+	position: absolute;
+	z-index: 2;
+}
+
+.conteudo2 {
+	border: 1px solid red;
+	background: green;
+	width: 200px;
+	height: 200px;
+	position: absolute;
+	top: 80px;
+	left: 80px;
+	z-index: 3;
+}
+
+.conteudo3 {
+	border: 1px solid red;
+	background: yellow;
+	width: 200px;
+	height: 200px;
+	position: absolute;
+	top: 160px;
+	left: 160px;
+	z-index: 0;
+}
+
+*/
+
+/*
+Formatacao de links ()
+
+a {
+	padding: 5px 10px;
+	text-decoration: none;
+}
+
+a:link {
+	color: #b9c941;
+}
+
+a:visited {
+	color: #c0c0c0;
+}
+
+a:hover {
+	color: #FFF;
+	background: #6dAbd4;
+}
+
+a:active {
+	color: #123456;
+}
+
+*/
