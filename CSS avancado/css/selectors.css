@@ -1,0 +1,39 @@
+/* seletor universal */
+* {
+	border: 1px solid red;
+}
+
+/* seletor de classe */
+.green {
+	color: green;
+}
+
+p.green {
+	color: green;
+}
+
+/* seletor de ID */
+
+#header {
+	border: 1px solid red;
+}
+
+/* seletor de filho (filho direto obrigatoriamente) */
+li>a {
+	text-decoration: none;
+}
+
+/* seletor de descendente (filho nao direto obrigatoriamente) */
+div a {
+	color: green;
+}
+
+/* seletor adjacente (no caso é todo p q vem depois diretamente de h1) */
+h1+p {
+	color: red;
+}
+
+/* seletor irmao geral */
+h1~p {
+	color: pink;
+}
