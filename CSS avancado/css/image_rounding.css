@@ -1,0 +1,13 @@
+.box {
+	width: 400px;
+	background: #dedede url(../imagens/image_rounding/topo.png) no-repeat left top;
+}
+
+.box h2 {
+	padding: 10px 20px 0 20px;
+}
+
+.box p {
+	background: url(../imagens/image_rounding/baixo.png) no-repeat left bottom;
+	padding: 0 20px 20px 20px;
+}
