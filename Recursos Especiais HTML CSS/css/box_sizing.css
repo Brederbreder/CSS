@@ -1,0 +1,27 @@
+#box {
+	width: 300px;
+	height: 300px;
+	background: #b9c941;
+	padding: 50px;
+	-webkit-border-radius: 150px; /* prefixo para os browsers caso necessario */
+	-moz-border-radius: 150px;
+	border-radius: 150px;
+	margin: 10px;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box; /* fixa o tamanho da caixa para, msm com padding */
+}
+
+#box2 {
+	width: 300px;
+	height: 300px;
+	background: #b9c941;
+	-webkit-border-radius: 150px; /* prefixo para os browsers caso necessario */
+	-moz-border-radius: 150px;
+	border-radius: 150px;
+	margin: 10px;
+}
+
+.rounding {
+	border-radius: 150px;
+}
